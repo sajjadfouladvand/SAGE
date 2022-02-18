@@ -181,3 +181,9 @@ Now the data is ready to train a classical machine learning model such as random
 ```
 python3 main_ml_models.py
 ```
+<h1 style="font-size:60px;">3. Visualization</h1>
+Use the following script to plot tSNE diagram of the stationary features:
+```
+python3 main_visualization.py --viz_method tsne
+python3 main_visualization.py --viz_method pca   
+```
