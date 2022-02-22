@@ -1,5 +1,5 @@
 
-<h1 style="font-size:60px;">1. Pre-processing</h1>
+<h1 style="font-size:60px;">Pre-processing</h1>
 
 Run the following python scripts to extract some metadata on both mci and non-mci cohorts. This scripts read from ```all_new_patients_in_neurology_mci_diagnosis```, ```all_new_patients_in_neurology_mci_demographic```,```all_new_patients_in_neurology_nonmci_diagnosis``` and  ```all_new_patients_in_neurology_nonmci_demographic``` tables and create metadata files for both cases and controls under ```intermediate_files``` directory: ```mci_metadata.csv``` and ```nonmci_metadata.csv```.
 
@@ -53,7 +53,7 @@ You can control the train and tes set size ratios and case to control ratios in 
 test_ratio: Default value is 0.3 (meaning that 30 percent of the data will be used for testing and 70 percent for training and validation).
 case_control_ratio: The default value is 1 (meaning that for each case 1 control will be matched based on age and sex)
 ```
-
+<h1 style="font-size:60px;">Model training</h1>
 Now the data is ready to train a classical machine learning model such as random forest:
 ```
 python3 main_ml_models.py
