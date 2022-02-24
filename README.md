@@ -55,11 +55,14 @@ case_control_ratio: The default value is 1 (meaning that for each case 1 control
 ```
 <h1 style="font-size:60px;">Model training</h1>
 Now the data is ready to train a classical machine learning model such as random forest:
+
 ```
 python3 main_ml_models.py
 ```
+
 <h1 style="font-size:60px;">3. Visualization</h1>
 Use the following script to plot tSNE diagram of the stationary features:
+
 ```
 python3 main_visualization.py --viz_method tsne
 python3 main_visualization.py --viz_method pca   
