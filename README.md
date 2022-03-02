@@ -67,3 +67,13 @@ Use the following script to plot tSNE diagram of the stationary features:
 python3 main_visualization.py --viz_method tsne
 python3 main_visualization.py --viz_method pca   
 ```
+
+<h1 style="font-size:60px;">Recommender system</h1>
+First, create stationary data for the recommender system:
+
+```
+python3 main_create_stationary.py --recommender for_recommender_ --prediction_window_size 2 --cohort mci
+
+```
+
+
