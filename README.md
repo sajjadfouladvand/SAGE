@@ -57,7 +57,9 @@ case_control_ratio: The default value is 1 (meaning that for each case 1 control
 Now the data is ready to train a classical machine learning model such as random forest:
 
 ```
-python3 main_ml_models.py
+python3 main_ml_models.py --ml_model rf
+python3 main_ml_models.py --ml_model lr
+python3 main_ml_models.py --ml_model xgb
 ```
 
 <h1 style="font-size:60px;">3. Visualization</h1>
