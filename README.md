@@ -75,7 +75,13 @@ First, create stationary data for the recommender system:
 
 ```
 python3 main_create_stationary.py --recommender for_recommender_ --prediction_window_size 2 --cohort mci
+python3 main_create_stationary.py --recommender for_recommender_ --prediction_window_size 2 --cohort nonmci
 
+```
+
+Then
+```
+python3 main_create_data_treatment_recommendation.py
 ```
 
 
