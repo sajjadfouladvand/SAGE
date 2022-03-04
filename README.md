@@ -61,6 +61,11 @@ python3 main_ml_models.py --ml_model rf
 python3 main_ml_models.py --ml_model lr
 python3 main_ml_models.py --ml_model xgb
 ```
+Use the following command to test the models using imbalanced test sets:
+
+```
+python3 main_ml_models.py --imb_test 1
+```
 
 <h1 style="font-size:60px;">3. Visualization</h1>
 Use the following script to plot tSNE diagram of the stationary features:
@@ -69,7 +74,11 @@ Use the following script to plot tSNE diagram of the stationary features:
 python3 main_visualization.py --viz_method tsne
 python3 main_visualization.py --viz_method pca   
 ```
+And for computing basic stats:
 
+```
+ python3 main_visualization.py --compute_table_1 1
+```
 <h1 style="font-size:60px;">Recommender system</h1>
 First, create stationary data for the recommender system:
 
